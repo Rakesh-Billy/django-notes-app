@@ -35,6 +35,7 @@ pipeline{
                 script{
                     docker_compose()
                 }
+                echo "Deployed Successfully"
             }
         }
     }
